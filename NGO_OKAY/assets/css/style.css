@@ -274,7 +274,7 @@ section{padding:84px 0}
   font-size:clamp(28px,3.2vw,46px);
   line-height:1.15;
   margin:0 0 12px;
-  white-space:normal;
+  white-space:nowrap;
   text-wrap:balance;
 }
 
@@ -776,6 +776,7 @@ font-size:16px;
 
 .section-title h2{
 font-size:26px;
+white-space:normal;
 }
 
 .container{
