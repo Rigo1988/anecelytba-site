@@ -1,0 +1,1 @@
+This version adds a professional donation workflow with amount entry, payment method choice, WhatsApp confirmation, and local browser recording via localStorage. A real cloud database would require backend integration (Firebase, Supabase, etc.).
