@@ -763,3 +763,22 @@ footer{
     background:linear-gradient(135deg,#111111,#000000);
   }
 
+@media (max-width:600px){
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.section-title h2{
+font-size:26px;
+}
+
+.container{
+width:92%;
+}
+
+}
