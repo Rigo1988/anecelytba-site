@@ -275,8 +275,6 @@ section{padding:84px 0}
   line-height:1.15;
   margin:0 0 12px;
   white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
 }
 
 .section-title p{
@@ -729,7 +727,12 @@ footer{
   section{padding:64px 0}
   .thumb{grid-template-columns:92px 1fr}
   .slider-main{min-height:380px}
+
+  .section-title h2{
+  white-space:normal;
 }
+}
+
   
 /* SOCIAL FLOATING BUTTONS */
 
