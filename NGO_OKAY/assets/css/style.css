@@ -728,26 +728,6 @@ footer{
   .thumb{grid-template-columns:92px 1fr}
   .slider-main{min-height:380px}
 }
-
-@media (max-width:600px){
-
-.hero h1{
-font-size:32px;
-}
-
-.hero p{
-font-size:16px;
-}
-
-.section-title h2{
-font-size:26px;
-}
-
-.container{
-width:92%;
-}
-
-}
   
 /* SOCIAL FLOATING BUTTONS */
 
