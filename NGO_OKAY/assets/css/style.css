@@ -274,7 +274,7 @@ section{padding:84px 0}
   font-size:clamp(28px,3.2vw,46px);
   line-height:1.15;
   margin:0 0 12px;
-  white-space:nowrap;
+  white-space:normal;
 }
 
 .section-title p{
@@ -704,7 +704,12 @@ footer{
   }
 
   .gallery-card.big{grid-row:auto}
-  .menu{display:none}
+@media (max-width:1100px){
+  .menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
 }
 
 @media (max-width:760px){
@@ -757,3 +762,23 @@ footer{
     bottom:86px;
     background:linear-gradient(135deg,#111111,#000000);
   }
+
+@media (max-width:600px){
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.section-title h2{
+font-size:26px;
+}
+
+.container{
+width:92%;
+}
+
+}
