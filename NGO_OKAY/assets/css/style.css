@@ -60,7 +60,8 @@ a{text-decoration:none;color:inherit}
   gap:12px;
   font-weight:800;
   color:var(--brown);
-  flex:0 0 auto;
+  flex:0 1 auto;
+  min-width:0;
 }
 
 .brand img{
@@ -77,6 +78,8 @@ a{text-decoration:none;color:inherit}
   display:flex;
   flex-direction:column;
   justify-content:center;
+  min-width:0;
+  max-width:420px;
 }
 
 .brand small{
@@ -734,6 +737,19 @@ footer{
   .section-title h2{
   white-space:normal;
 }
+  .brand{
+    gap:10px;
+  }
+
+  .brand div{
+    max-width:220px;
+  }
+
+  .brand small{
+    font-size:11px;
+    line-height:1.25;
+  }
+  
 }
 
   
