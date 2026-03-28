@@ -1,5 +1,5 @@
 const team = [
-  { role: "", name: "NYA TANKOUA Guy", photo: "assets/images/president.png", highlight: true },
+  { role: "Président", name: "NYA TANKOUA Guy", photo: "assets/images/president.png", highlight: true },
   { role: "Première Vice-Présidente", name: "MOUKODI Hélène", photo: "" },
   { role: "Deuxième Vice-Présidente", name: "DJEUGA Mireille", photo: "" },
   { role: "Secrétaire", name: "KELBE Serge", photo: "" },
@@ -231,15 +231,19 @@ function promptMemberDownload(fileTitle) {
 
   const isAllowed =
     accessRule === "all" ||
-    (Array.isArray(accessRule) && (accessRule.includes("all") || accessRule.includes(fileTitle)));
+    (Array.isArray(accessRule) &&
+      (accessRule.includes("all") || accessRule.includes(fileTitle)));
 
   if (!isAllowed) {
     alert("Vous n'êtes pas autorisé à télécharger ce document.");
     return;
   }
 
-  window.open(requestedFile, "_blank");
+  alert("Accès autorisé. Le document va s’ouvrir.");
+
+  window.location.href = requestedFile;
 }
+
 
 document.addEventListener('click', (e) => {
   const d = e.target.closest('.download-member');
