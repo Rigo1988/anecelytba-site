@@ -1,5 +1,5 @@
 const team = [
-  { role: "Président", name: "NYA TANKOUA Guy", photo: "assets/images/president.png", highlight: true },
+  { role: "", name: "NYA TANKOUA Guy", photo: "assets/images/president.png", highlight: true },
   { role: "Première Vice-Présidente", name: "MOUKODI Hélène", photo: "" },
   { role: "Deuxième Vice-Présidente", name: "DJEUGA Mireille", photo: "" },
   { role: "Secrétaire", name: "KELBE Serge", photo: "" },
