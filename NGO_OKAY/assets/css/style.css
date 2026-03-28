@@ -801,3 +801,37 @@ width:92%;
 }
 
 }
+
+.team-photo{
+  aspect-ratio:4/3;
+  overflow:hidden;
+  position:relative;
+}
+
+.team-photo-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+/* Supprime "Espace photo" si vraie image */
+.team-photo.has-photo::after{
+  display:none;
+}
+
+/* Style spécial Président */
+.president-card{
+  border:2px solid #f4a300;
+  transform:scale(1.05);
+}
+
+.badge-president{
+  display:inline-block;
+  background:#f4a300;
+  color:#fff;
+  padding:4px 10px;
+  border-radius:20px;
+  font-size:12px;
+  margin-bottom:8px;
+}
