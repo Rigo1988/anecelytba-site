@@ -382,7 +382,6 @@ section{padding:84px 0}
 .team-photo{aspect-ratio:4/3}
 
 .team-photo::after,.gallery-photo::after,.slider-image::after{
-  content:'Espace photo';
   position:absolute;
   left:16px;
   top:16px;
